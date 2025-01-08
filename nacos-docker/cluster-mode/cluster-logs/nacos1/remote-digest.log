@@ -1,8 +1,0 @@
-2025-01-08 17:38:34,155 INFO Connection transportTerminated,connectionId = 1736221165316_172.19.0.5_49548 
-
-2025-01-08 17:38:34,156 INFO [1736221165316_172.19.0.5_49548]client disconnected,clear config listen context
-
-2025-01-08 17:38:34,157 INFO Connection transportTerminated,connectionId = 1736221164553_172.19.0.3_47426 
-
-2025-01-08 17:38:34,171 INFO [1736221164553_172.19.0.3_47426]client disconnected,clear config listen context
-

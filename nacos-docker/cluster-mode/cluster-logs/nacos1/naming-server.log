@@ -1,8 +1,0 @@
-2025-01-08 17:38:34,118 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
-
-2025-01-08 17:38:34,134 WARN [NamingServerHttpClientManager] Destruction of the end
-
-2025-01-08 17:38:34,156 INFO Client connection 1736221165316_172.19.0.5_49548 disconnect, remove instances and subscribers
-
-2025-01-08 17:38:34,170 INFO Client connection 1736221164553_172.19.0.3_47426 disconnect, remove instances and subscribers
-
