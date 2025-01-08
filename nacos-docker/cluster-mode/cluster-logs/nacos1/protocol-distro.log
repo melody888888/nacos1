@@ -1,0 +1,1880 @@
+2025-01-07 10:21:31,543 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:32,564 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:33,565 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:34,566 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:35,567 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:36,568 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:37,568 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:38,571 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:39,572 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:21:40,152 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:40,152 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:40,153 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:40,153 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:40,524 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:21:59,617 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:00,617 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:01,618 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:02,619 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:03,620 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:04,622 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:05,622 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:06,632 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:07,160 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:07,160 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:07,160 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:07,166 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:07,591 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:22:27,344 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:28,347 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:29,348 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:30,359 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:31,360 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:32,360 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:33,360 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:34,363 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:34,677 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:34,677 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:34,677 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:34,677 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:35,176 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:22:54,479 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:55,483 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:56,488 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:57,491 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:58,495 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:22:59,496 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:00,499 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:01,304 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:01,322 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:01,304 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:01,322 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:01,500 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:01,726 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:23:20,683 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:21,684 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:22,685 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:23,685 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:24,688 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:25,691 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:26,694 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:27,695 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:27,914 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:27,914 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:27,914 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:27,921 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:28,360 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:23:47,246 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:48,250 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:49,251 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:50,251 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:51,260 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:52,260 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:53,275 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:54,277 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:23:54,333 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,333 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,337 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,337 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,728 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:24:14,349 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:15,349 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:16,363 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:17,364 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:18,364 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:19,379 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:20,381 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:21,382 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:22,382 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:22,956 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:22,963 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:22,963 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:22,956 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:23,382 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:23,432 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:24:41,357 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:42,359 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:43,370 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:44,371 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:45,372 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:46,372 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:47,379 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:48,381 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:49,384 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:24:49,552 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:49,553 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:49,553 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:49,553 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:49,968 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:25:09,672 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:10,678 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:11,678 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:12,682 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:13,683 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:14,687 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:15,687 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:16,691 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:17,175 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:17,175 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:17,175 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:17,182 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:17,534 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:25:36,851 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:37,851 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:38,855 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:39,859 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:40,860 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:41,864 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:42,864 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:43,875 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:44,508 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:44,509 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:44,509 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:44,509 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:44,875 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:25:44,973 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:26:04,343 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:05,343 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:06,344 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:07,344 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:08,345 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:09,347 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:10,348 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:11,351 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:12,353 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:12,616 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:12,624 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:12,627 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:12,627 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:13,016 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:26:31,769 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:32,770 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:33,770 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:34,771 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:35,771 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:36,771 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:37,793 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:38,795 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:39,796 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:26:40,262 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:40,262 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:40,262 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:40,270 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:40,672 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:26:59,126 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:00,127 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:01,127 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:02,127 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:03,150 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:04,151 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:05,152 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:05,278 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:05,279 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:05,280 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:05,283 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:05,790 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:27:25,487 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:26,487 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:27,488 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:28,490 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:29,496 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:30,496 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:31,496 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:32,497 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:33,497 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:34,251 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:34,244 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:34,244 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:34,251 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:34,497 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:34,686 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:27:54,321 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:55,321 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:56,324 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:57,327 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:58,332 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:27:59,383 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:00,383 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:01,384 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:01,577 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:01,577 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:01,577 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:01,584 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:02,035 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:28:21,881 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:22,883 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:23,888 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:24,888 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:25,888 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:26,891 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:27,892 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:28,892 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:29,099 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:29,107 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:29,099 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:29,099 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:29,748 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:28:49,123 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:50,124 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:51,131 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:52,132 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:53,132 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:54,132 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:55,136 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:56,136 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:28:56,208 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:56,208 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:56,209 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:56,208 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:56,601 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:29:16,189 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:17,191 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:18,192 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:19,195 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:20,200 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:21,201 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:22,201 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:23,202 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:23,820 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:23,820 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:23,820 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:23,839 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:24,203 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:24,233 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:29:43,872 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:44,874 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:45,877 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:46,879 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:47,887 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:48,895 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:49,896 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:50,898 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:51,560 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:51,572 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:51,572 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:51,572 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:51,904 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:29:51,963 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:30:11,999 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:13,000 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:14,000 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:15,001 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:16,002 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:17,002 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:18,019 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:19,019 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:20,020 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:21,020 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:22,031 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:23,032 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:24,032 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:30:25,034 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:30:25,034 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:30:25,034 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 10:30:25,214 INFO [DISTRO-INIT] it took 180 ms to load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 and snapshot size is 25.
+
+2025-01-07 10:30:25,297 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 result: true
+
+2025-01-07 10:30:25,297 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 10:36:52,199 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:36:52,201 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:36:52,201 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:36:52,203 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:37:14,376 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:15,377 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:16,379 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:17,379 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:18,383 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:19,383 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:20,384 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:21,386 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:22,387 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:23,388 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:24,399 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:25,407 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:37:26,409 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:37:26,410 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:26,410 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 10:37:26,410 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:29,373 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:34,417 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:39,418 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:44,418 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:49,419 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:54,419 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:37:56,411 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:37:56,460 INFO [DISTRO-INIT] it took 49 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 10:37:56,485 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 10:37:56,486 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 10:39:30,180 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:39:30,181 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:39:30,182 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:39:30,187 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:39:51,547 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:39:52,547 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:39:53,548 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:39:54,551 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:39:55,555 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:39:55,764 ERROR [DISTRO-INIT] load snapshot data failed. 
+
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:342)
+	at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:83)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:40:01,535 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:40:01,535 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:40:01,536 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:40:01,536 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:40:57,510 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:40:58,510 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:40:59,511 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:00,516 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:01,520 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:02,520 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:03,531 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:04,532 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:05,553 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:06,555 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:07,564 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:08,564 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:09,567 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:41:10,568 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:41:10,568 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:10,569 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 10:41:10,569 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:12,509 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:17,527 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:22,528 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:27,528 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:32,529 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:37,529 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:41:40,569 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:41:40,630 INFO [DISTRO-INIT] it took 60 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 10:41:40,646 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 10:41:40,646 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 10:43:42,047 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:43:42,049 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:43:42,049 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:43:42,050 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:44:04,427 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:05,437 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:06,437 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:07,439 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:08,441 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:09,441 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:10,442 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:11,454 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:12,502 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:13,503 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:14,504 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:15,505 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:16,511 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:44:17,516 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:44:17,516 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:17,516 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 10:44:17,516 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:19,437 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:24,453 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:29,454 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:34,454 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:39,455 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:44,456 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:44:47,517 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:44:47,551 INFO [DISTRO-INIT] it took 33 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 10:44:47,563 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 10:44:47,563 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 10:58:10,473 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:58:10,473 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:58:10,474 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:58:10,476 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:58:39,976 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:40,979 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:41,983 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:42,987 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:43,991 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:44,992 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:45,992 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:46,995 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:47,996 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:48,996 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:49,998 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:51,003 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:52,047 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 10:58:53,048 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:58:53,049 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:53,049 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 10:58:53,049 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:54,981 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:00,005 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:05,005 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:10,006 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:15,007 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:20,007 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 10:59:23,050 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 10:59:23,098 INFO [DISTRO-INIT] it took 48 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 10:59:23,108 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 10:59:23,108 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 11:20:58,438 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:20:58,443 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:20:58,444 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:20:58,445 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:21:20,697 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:21,699 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:22,700 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:23,703 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:24,713 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:25,713 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:26,715 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:27,716 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:28,725 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:29,727 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:30,728 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:31,728 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:32,729 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:33,743 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:21:34,744 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 11:21:34,744 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:34,759 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 11:21:34,760 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:35,688 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:21:40,744 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:21:45,744 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:21:50,745 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:21:55,746 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:22:00,746 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:22:04,761 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 11:22:04,792 INFO [DISTRO-INIT] it took 32 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 11:22:04,800 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 11:22:04,800 INFO [DISTRO-INIT] load snapshot data success
+
+2025-01-07 11:38:45,932 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:38:45,933 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:38:45,933 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:38:45,933 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 11:39:07,455 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:08,456 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:09,456 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:10,463 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:11,466 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:12,467 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:13,489 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:14,492 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:15,492 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:16,493 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:17,493 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:18,493 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:19,496 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2025-01-07 11:39:20,503 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 11:39:20,504 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:20,504 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2025-01-07 11:39:20,504 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:22,456 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:27,464 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:32,466 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:37,467 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:42,467 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:47,468 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2025-01-07 11:39:50,505 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2025-01-07 11:39:50,566 INFO [DISTRO-INIT] it took 61 ms to load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 and snapshot size is 25.
+
+2025-01-07 11:39:50,584 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 result: true
+
+2025-01-07 11:39:50,584 INFO [DISTRO-INIT] load snapshot data success
+

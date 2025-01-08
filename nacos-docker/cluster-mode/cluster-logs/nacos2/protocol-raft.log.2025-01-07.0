@@ -1,0 +1,2022 @@
+2025-01-07 10:30:24,026 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 10:30:24,502 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 10:30:24,577 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 10:30:24,586 INFO create raft group : naming_persistent_service
+
+2025-01-07 10:30:25,862 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:30:25,999 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 10:30:26,211 INFO create raft group : naming_instance_metadata
+
+2025-01-07 10:30:26,371 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:30:26,467 INFO create raft group : naming_service_metadata
+
+2025-01-07 10:30:26,534 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:30:26,595 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:30:26,961 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:30:27,059 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:30:27,266 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:36:52,112 INFO shutdown jraft server
+
+2025-01-07 10:36:52,115 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 10:36:52,369 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 10:37:23,713 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 10:37:24,306 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 10:37:24,390 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 10:37:24,396 INFO create raft group : naming_persistent_service
+
+2025-01-07 10:37:26,400 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 10:37:26,425 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:26,616 INFO create raft group : naming_instance_metadata
+
+2025-01-07 10:37:26,782 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:26,879 INFO create raft group : naming_service_metadata
+
+2025-01-07 10:37:26,943 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:27,240 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:27,575 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:27,885 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:28,089 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:28,354 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:28,670 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:28,934 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:29,157 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:29,464 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:29,959 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:29,990 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:30,274 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:30,293 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:37:30,647 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:30,993 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:37:31,127 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:37:31,155 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:37:31,746 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:39:29,827 INFO shutdown jraft server
+
+2025-01-07 10:39:29,828 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 10:39:30,021 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 10:41:06,324 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 10:41:07,094 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 10:41:07,399 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 10:41:07,412 INFO create raft group : naming_persistent_service
+
+2025-01-07 10:41:09,291 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:09,346 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 10:41:09,653 INFO create raft group : naming_instance_metadata
+
+2025-01-07 10:41:09,701 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, com.alipay.sofa.jraft.error.RemotingException: Fail to connect: nacos3:7848, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:09,906 INFO create raft group : naming_service_metadata
+
+2025-01-07 10:41:10,270 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Fail to find node nacos3:7848 in group naming_instance_metadata, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:10,380 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Fail to find node nacos3:7848 in group naming_service_metadata, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:10,433 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Fail to find node nacos3:7848 in group naming_persistent_service, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:10,832 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Fail to find node nacos3:7848 in group naming_persistent_service_v2, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:11,386 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Fail to find node nacos3:7848 in group naming_instance_metadata, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:11,533 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Fail to find node nacos3:7848 in group naming_service_metadata, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:11,631 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:11,869 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:12,430 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:12,617 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:12,740 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:12,909 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:13,716 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:13,719 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:13,727 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:41:13,833 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service]
+
+2025-01-07 10:41:13,912 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:41:13,977 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:14,595 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:41:14,648 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service_v2]
+
+2025-01-07 10:41:14,751 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:14,775 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:14,935 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:41:15,152 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:41:15,167 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_instance_metadata]
+
+2025-01-07 10:41:15,204 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:41:15,290 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:41:15,379 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:41:15,405 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_service_metadata]
+
+2025-01-07 10:41:15,426 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,188 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,350 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,357 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,366 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 10:42:14,367 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,370 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 10:42:14,371 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 10:42:14,409 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 10:42:14,695 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,695 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,695 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:42:14,699 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:43:41,869 INFO shutdown jraft server
+
+2025-01-07 10:43:41,869 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 10:43:42,072 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 10:44:13,229 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 10:44:13,938 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 10:44:14,028 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 10:44:14,047 INFO create raft group : naming_persistent_service
+
+2025-01-07 10:44:15,607 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 10:44:15,614 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:15,833 INFO create raft group : naming_instance_metadata
+
+2025-01-07 10:44:15,918 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Fail to find node nacos1:7848 in group naming_persistent_service_v2, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:16,051 INFO create raft group : naming_service_metadata
+
+2025-01-07 10:44:16,124 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_instance_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:16,251 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_service_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:16,723 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:17,017 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:17,248 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:17,382 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:17,798 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:18,055 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:18,305 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:18,445 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:18,863 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:19,102 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:19,356 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:19,528 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:19,903 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:20,034 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:44:20,081 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service]
+
+2025-01-07 10:44:20,196 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:20,543 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:20,741 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:44:20,855 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:44:20,867 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:44:20,936 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:44:21,151 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 10:44:21,236 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service_v2]
+
+2025-01-07 10:44:21,343 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:44:21,496 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_instance_metadata]
+
+2025-01-07 10:44:21,541 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:58:10,109 INFO shutdown jraft server
+
+2025-01-07 10:58:10,111 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 10:58:10,254 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 10:58:50,825 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 10:58:51,455 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 10:58:51,539 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 10:58:51,561 INFO create raft group : naming_persistent_service
+
+2025-01-07 10:58:53,006 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 10:58:53,232 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:53,705 INFO create raft group : naming_instance_metadata
+
+2025-01-07 10:58:53,860 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:54,131 INFO create raft group : naming_service_metadata
+
+2025-01-07 10:58:54,179 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:54,308 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:54,591 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:54,959 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:55,311 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:55,516 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:55,666 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:55,998 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:56,358 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:56,679 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:56,746 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:57,206 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:57,335 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:58:57,350 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:58:57,419 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:57,845 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 10:58:58,304 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 10:58:58,439 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:20:58,153 INFO shutdown jraft server
+
+2025-01-07 11:20:58,158 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 11:20:58,464 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 11:21:27,696 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 11:21:28,191 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 11:21:28,296 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 11:21:28,302 INFO create raft group : naming_persistent_service
+
+2025-01-07 11:21:29,480 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 11:21:30,066 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:30,174 INFO create raft group : naming_instance_metadata
+
+2025-01-07 11:21:30,413 INFO create raft group : naming_service_metadata
+
+2025-01-07 11:21:30,467 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Fail to find node nacos3:7848 in group naming_persistent_service_v2, com.alipay.sofa.jraft.error.RemotingException: Fail to connect: nacos1:7848, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:30,478 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Fail to find node nacos3:7848 in group naming_instance_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:30,675 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Fail to find node nacos3:7848 in group naming_service_metadata, com.alipay.sofa.jraft.error.RemotingException: Fail to connect: nacos1:7848, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:31,536 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Fail to find node nacos1:7848 in group naming_persistent_service, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:31,605 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Fail to find node nacos3:7848 in group naming_persistent_service_v2, Fail to find node nacos1:7848 in group naming_persistent_service_v2, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:31,715 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Fail to find node nacos3:7848 in group naming_instance_metadata, Fail to find node nacos1:7848 in group naming_instance_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:31,800 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Fail to find node nacos3:7848 in group naming_service_metadata, Fail to find node nacos1:7848 in group naming_service_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:32,633 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:32,686 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Fail to find node nacos1:7848 in group naming_persistent_service_v2, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:32,751 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_instance_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:32,981 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_service_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:33,678 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:33,727 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:33,788 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_instance_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:34,023 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Fail to find node nacos1:7848 in group naming_service_metadata, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:34,083 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 11:21:34,133 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service]
+
+2025-01-07 11:21:34,779 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:34,793 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:34,914 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:35,229 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 11:21:35,239 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:35,368 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_persistent_service_v2]
+
+2025-01-07 11:21:35,467 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 11:21:35,523 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_instance_metadata]
+
+2025-01-07 11:21:35,682 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-07 11:21:35,801 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to get leader of group naming_service_metadata]
+
+2025-01-07 11:21:35,812 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:21:35,901 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:21:35,986 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:36,305 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:21:36,423 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:21:36,756 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:38:45,866 INFO shutdown jraft server
+
+2025-01-07 11:38:45,867 INFO ========= The raft protocol is starting to close =========
+
+2025-01-07 11:38:46,108 INFO ========= The raft protocol has been closed =========
+
+2025-01-07 11:39:17,953 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["nacos3:7848","nacos1:7848","nacos2:7848"],"strictMode":false,"selfMember":"nacos2:7848"}
+
+2025-01-07 11:39:18,638 INFO ========= The raft protocol is starting... =========
+
+2025-01-07 11:39:18,712 INFO ========= The raft protocol start finished... =========
+
+2025-01-07 11:39:18,718 INFO create raft group : naming_persistent_service
+
+2025-01-07 11:39:20,708 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:20,728 INFO create raft group : naming_persistent_service_v2
+
+2025-01-07 11:39:20,979 INFO create raft group : naming_instance_metadata
+
+2025-01-07 11:39:21,087 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:21,179 INFO create raft group : naming_service_metadata
+
+2025-01-07 11:39:21,243 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:21,677 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:21,799 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:22,351 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:22,396 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:22,727 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:22,902 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:23,415 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:23,441 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:23,957 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:23,962 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:24,511 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_instance_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:24,612 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_persistent_service_v2, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:24,809 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:39:24,830 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:39:25,025 ERROR Failed to join the cluster, retry...
+
+java.lang.IllegalStateException: Fail to get leader of group naming_service_metadata, Unknown leader, Unknown leader, Unknown leader
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:605)
+	at com.alipay.sofa.jraft.core.CliServiceImpl.getPeers(CliServiceImpl.java:498)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.registerSelfToCluster(JRaftServer.java:353)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$0(JRaftServer.java:264)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 11:39:25,135 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 11:39:25,564 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=1, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 12:51:54,997 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 12:51:54,998 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 12:51:55,000 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 12:51:55,069 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 12:51:56,091 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 12:51:56,459 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 12:51:56,749 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=2, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 13:13:35,732 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 13:13:35,733 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 13:13:35,733 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 13:13:35,735 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 13:13:35,912 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=3, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 13:13:36,964 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=3, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 13:13:38,528 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 13:13:40,766 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=3, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 13:13:40,792 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=3, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 14:18:28,424 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 14:18:28,449 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=4, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 14:18:28,461 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=4, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 14:18:31,397 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=4, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 14:40:08,265 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 14:40:11,011 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 15:45:04,997 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 15:45:06,228 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 15:45:06,274 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=5, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 15:45:06,277 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=4, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 15:45:06,280 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=5, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 15:45:07,319 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=5, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 16:06:47,031 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=4, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 16:06:47,031 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=5, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 16:06:47,060 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 16:06:47,061 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 16:06:47,086 ERROR Fail to refresh raft metadata info for group : naming_instance_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 16:06:47,087 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=6, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 16:06:47,184 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=5, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 16:06:47,192 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=6, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 19:43:07,437 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 19:43:07,995 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:04:44,103 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 20:04:44,103 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 20:04:44,123 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=8, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:04:44,143 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=6, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:26:21,502 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=6, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:26:21,504 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 20:26:21,511 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:26:21,513 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 20:26:21,517 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=9, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:26:21,630 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:47:58,167 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:47:58,192 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:47:58,210 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=8, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 20:48:00,474 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 20:48:01,375 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 21:31:14,474 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 21:31:15,167 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: null]
+
+2025-01-07 21:31:17,960 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=7, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 21:31:18,000 ERROR Fail to refresh raft metadata info for group : naming_persistent_service_v2, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-01-07 21:31:18,013 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=8, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 21:31:18,018 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=9, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 21:31:18,045 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=8, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,665 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,686 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=9, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,688 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 22:14:31,698 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-07 22:14:31,700 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=8, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,702 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=9, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,704 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=11, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,725 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:14:31,726 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=9, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:57:44,565 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:57:45,824 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-07 22:57:46,253 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+

@@ -1,0 +1,116 @@
+2025-01-07 16:28:03,711 INFO [dump] add formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:28:03,783 INFO [dump] process formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:28:03,835 INFO [dump] md5 changed, save to disk cache ,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=0faf2c0fd98e1d6d5fe2adbcdd717e9e,oldMd5=
+
+2025-01-07 16:28:03,845 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=0faf2c0fd98e1d6d5fe2adbcdd717e9e,oldMd5=,lastModifiedTs=1736209684000
+
+2025-01-07 16:28:34,720 INFO [dump] add formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:28:34,818 INFO [dump] process formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:28:34,821 INFO [dump] md5 changed, save to disk cache ,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=e6342efe0115e6f1147f5b87c63df2bd,oldMd5=0faf2c0fd98e1d6d5fe2adbcdd717e9e
+
+2025-01-07 16:28:34,822 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=e6342efe0115e6f1147f5b87c63df2bd,oldMd5=0faf2c0fd98e1d6d5fe2adbcdd717e9e,lastModifiedTs=1736209715000
+
+2025-01-07 16:29:15,275 INFO [dump] add formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:29:15,308 INFO [dump] process formal task. groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:29:15,311 INFO [dump] remove  local disk cache,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:29:15,311 INFO [dump] remove  local jvm cache,groupKey=service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:29:37,543 INFO [remove-ok] service-basic+public+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 not exist.
+
+2025-01-07 16:36:55,923 INFO [dump] add formal task. groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:36:55,964 INFO [dump] process formal task. groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:36:55,974 INFO [dump] md5 changed, save to disk cache ,groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b0baee9d279d34fa1dfd71aadb908c3f,oldMd5=
+
+2025-01-07 16:36:55,975 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b0baee9d279d34fa1dfd71aadb908c3f,oldMd5=,lastModifiedTs=1736210216000
+
+2025-01-07 16:38:27,117 INFO [dump] add formal task. groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:38:27,121 INFO [dump] process formal task. groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:38:27,128 INFO [dump] remove  local disk cache,groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:38:27,128 INFO [dump] remove  local jvm cache,groupKey=111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:38:37,623 INFO [remove-ok] 111+test+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 not exist.
+
+2025-01-07 16:39:10,150 INFO [dump] add formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:39:10,208 INFO [dump] process formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:39:10,210 INFO [dump] md5 changed, save to disk cache ,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b0baee9d279d34fa1dfd71aadb908c3f,oldMd5=
+
+2025-01-07 16:39:10,210 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b0baee9d279d34fa1dfd71aadb908c3f,oldMd5=,lastModifiedTs=1736210350000
+
+2025-01-07 16:40:25,288 INFO [dump] add formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:40:25,340 INFO [dump] process formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:40:25,342 INFO [dump] md5 changed, save to disk cache ,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=1ece33f8258a7ea8d35b8ffaef329859,oldMd5=b0baee9d279d34fa1dfd71aadb908c3f
+
+2025-01-07 16:40:25,343 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=1ece33f8258a7ea8d35b8ffaef329859,oldMd5=b0baee9d279d34fa1dfd71aadb908c3f,lastModifiedTs=1736210425000
+
+2025-01-07 16:40:52,779 INFO [dump] add formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:40:52,797 INFO [dump] process formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:40:52,799 INFO [dump] remove  local disk cache,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:40:52,799 INFO [dump] remove  local jvm cache,groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 
+
+2025-01-07 16:41:07,646 INFO [remove-ok] 11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 not exist.
+
+2025-01-07 16:43:51,861 INFO [dump] add formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:43:51,872 INFO [dump] process formal task. groupKey=11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:43:51,874 INFO [remove-ok] 11+DEFAULT_GROUP+6f82eef1-0d17-44ff-a5d9-dffda4f17b08 not exist.
+
+2025-01-07 16:47:27,803 INFO [dump] add formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:47:27,865 INFO [dump] process formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:47:27,870 INFO [dump] md5 changed, save to disk cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b59c67bf196a4758191e42f76670ceba,oldMd5=
+
+2025-01-07 16:47:27,871 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=b59c67bf196a4758191e42f76670ceba,oldMd5=,lastModifiedTs=1736210848000
+
+2025-01-07 16:47:44,469 INFO [dump] add formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:47:44,504 INFO [dump] process formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:47:44,506 INFO [dump] md5 changed, save to disk cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=821f3157e1a3456bfe1a000a1adf0862,oldMd5=b59c67bf196a4758191e42f76670ceba
+
+2025-01-07 16:47:44,507 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=821f3157e1a3456bfe1a000a1adf0862,oldMd5=b59c67bf196a4758191e42f76670ceba,lastModifiedTs=1736210864000
+
+2025-01-07 16:48:01,368 INFO [dump] add formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:48:01,433 INFO [dump] process formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:48:01,436 INFO [dump] md5 changed, save to disk cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=95ebebaa68041c9faae8673241eaae1b,oldMd5=821f3157e1a3456bfe1a000a1adf0862
+
+2025-01-07 16:48:01,437 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=95ebebaa68041c9faae8673241eaae1b,oldMd5=821f3157e1a3456bfe1a000a1adf0862,lastModifiedTs=1736210881000
+
+2025-01-07 16:49:34,836 INFO [dump] add formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:49:34,913 INFO [dump] process formal task. groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 16:49:34,916 INFO [dump] md5 changed, save to disk cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=821f3157e1a3456bfe1a000a1adf0862,oldMd5=95ebebaa68041c9faae8673241eaae1b
+
+2025-01-07 16:49:34,917 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=111+222+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=821f3157e1a3456bfe1a000a1adf0862,oldMd5=95ebebaa68041c9faae8673241eaae1b,lastModifiedTs=1736210975000
+
+2025-01-07 17:15:24,599 INFO [dump] add formal task. groupKey=haha+xixi+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 17:15:24,696 INFO [dump] process formal task. groupKey=haha+xixi+6f82eef1-0d17-44ff-a5d9-dffda4f17b08
+
+2025-01-07 17:15:24,700 INFO [dump] md5 changed, save to disk cache ,groupKey=haha+xixi+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=a96577d544e716d2abf6aac5e91190d2,oldMd5=
+
+2025-01-07 17:15:24,701 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=haha+xixi+6f82eef1-0d17-44ff-a5d9-dffda4f17b08, newMd5=a96577d544e716d2abf6aac5e91190d2,oldMd5=,lastModifiedTs=1736212525000
+

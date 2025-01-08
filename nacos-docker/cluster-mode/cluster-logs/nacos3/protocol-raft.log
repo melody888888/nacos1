@@ -1,0 +1,94 @@
+2025-01-08 00:02:36,141 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=10, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 00:02:36,191 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=11, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 00:02:36,478 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=11, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 02:33:55,565 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 02:33:55,571 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 02:33:55,571 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 02:33:55,611 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 02:33:55,611 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=13, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 02:33:57,632 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 02:33:57,910 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=11, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 03:38:46,775 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 03:38:46,780 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 03:38:46,789 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 03:38:46,803 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 03:38:46,814 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=13, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 03:38:46,816 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=13, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 03:38:49,702 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 04:22:02,897 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 04:22:04,053 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 07:58:14,765 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 07:58:14,788 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=12, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 07:58:14,803 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 07:58:14,824 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 07:58:14,829 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=15, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 09:24:46,577 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 09:24:46,919 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=13, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 09:24:50,543 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=16, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 10:08:02,132 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 10:08:02,423 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=15, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 10:51:20,517 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 10:51:22,395 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=16, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:34:30,423 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=17, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:34:30,601 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 11:34:31,722 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:56:10,104 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=14, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:56:10,139 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 11:56:10,139 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 11:56:10,160 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2025-01-08 11:56:10,166 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=18, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:56:10,180 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=15, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:56:10,187 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2025-01-08 11:56:10,194 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=15, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 11:56:10,195 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=17, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 14:27:30,183 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=15, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 14:27:30,214 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=16, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 15:10:46,123 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=18, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2025-01-08 16:58:57,451 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=19, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
