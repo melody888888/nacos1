@@ -1,4 +1,3 @@
-开启了鉴权
 echo "# nacos1" >> README>md
 git init 
 git add README.md
