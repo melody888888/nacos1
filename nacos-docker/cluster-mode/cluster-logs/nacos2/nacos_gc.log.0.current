@@ -66,3 +66,12 @@ CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:CMSInitiatingOccupancyFract
 2025-01-08T07:33:03.120+0000: 100453.252: [GC (Allocation Failure) 2025-01-08T07:33:03.120+0000: 100453.252: [ParNew: 424328K->5020K(471872K), 0.0131429 secs] 486014K->66709K(996160K), 0.0136252 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
 2025-01-08T08:12:17.876+0000: 102808.007: [GC (Allocation Failure) 2025-01-08T08:12:17.876+0000: 102808.008: [ParNew: 424476K->5030K(471872K), 0.0113146 secs] 486165K->66721K(996160K), 0.0118495 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
 2025-01-08T08:51:18.026+0000: 105148.157: [GC (Allocation Failure) 2025-01-08T08:51:18.026+0000: 105148.158: [ParNew: 424486K->4964K(471872K), 0.0115769 secs] 486177K->66679K(996160K), 0.0120280 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+2025-01-08T09:29:32.807+0000: 107442.938: [GC (Allocation Failure) 2025-01-08T09:29:32.807+0000: 107442.939: [ParNew: 424420K->4974K(471872K), 0.0123975 secs] 486135K->66694K(996160K), 0.0130512 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+Heap
+ par new generation   total 471872K, used 195832K [0x00000000c0000000, 0x00000000e0000000, 0x00000000e0000000)
+  eden space 419456K,  45% used [0x00000000c0000000, 0x00000000cba627a8, 0x00000000d99a0000)
+  from space 52416K,   9% used [0x00000000d99a0000, 0x00000000d9e7bbf0, 0x00000000dccd0000)
+  to   space 52416K,   0% used [0x00000000dccd0000, 0x00000000dccd0000, 0x00000000e0000000)
+ concurrent mark-sweep generation total 524288K, used 61719K [0x00000000e0000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 85620K, capacity 90002K, committed 90240K, reserved 1128448K
+  class space    used 10291K, capacity 11064K, committed 11136K, reserved 1048576K

@@ -33040,3 +33040,930 @@
 
 2025-01-08 17:12:18,095 INFO Next dump change will scheduled after 30000 milliseconds
 
+2025-01-08 17:12:48,095 INFO DumpChange start ,from time 2025-01-08 17:12:18.091,current time 2025-01-08 17:12:48.095
+
+2025-01-08 17:12:48,095 INFO Start to check delete configs from  time 2025-01-08 17:12:18.091
+
+2025-01-08 17:12:48,095 INFO Check delete configs from  time 2025-01-08 17:12:18.091
+
+2025-01-08 17:12:48,098 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:12:48,098 INFO Check changeConfig start
+
+2025-01-08 17:12:48,098 INFO Check changed configs from  time 2025-01-08 17:12:18.091,lastMaxId=0
+
+2025-01-08 17:12:48,099 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:12:48.095
+
+2025-01-08 17:12:48,099 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:13:18,100 INFO DumpChange start ,from time 2025-01-08 17:12:48.095,current time 2025-01-08 17:13:18.099
+
+2025-01-08 17:13:18,100 INFO Start to check delete configs from  time 2025-01-08 17:12:48.095
+
+2025-01-08 17:13:18,100 INFO Check delete configs from  time 2025-01-08 17:12:48.095
+
+2025-01-08 17:13:18,102 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:13:18,102 INFO Check changeConfig start
+
+2025-01-08 17:13:18,102 INFO Check changed configs from  time 2025-01-08 17:12:48.095,lastMaxId=0
+
+2025-01-08 17:13:18,103 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:13:18.099
+
+2025-01-08 17:13:18,103 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:13:48,103 INFO DumpChange start ,from time 2025-01-08 17:13:18.099,current time 2025-01-08 17:13:48.103
+
+2025-01-08 17:13:48,103 INFO Start to check delete configs from  time 2025-01-08 17:13:18.099
+
+2025-01-08 17:13:48,103 INFO Check delete configs from  time 2025-01-08 17:13:18.099
+
+2025-01-08 17:13:48,106 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:13:48,106 INFO Check changeConfig start
+
+2025-01-08 17:13:48,106 INFO Check changed configs from  time 2025-01-08 17:13:18.099,lastMaxId=0
+
+2025-01-08 17:13:48,107 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:13:48.103
+
+2025-01-08 17:13:48,107 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:14:18,107 INFO DumpChange start ,from time 2025-01-08 17:13:48.103,current time 2025-01-08 17:14:18.107
+
+2025-01-08 17:14:18,107 INFO Start to check delete configs from  time 2025-01-08 17:13:48.103
+
+2025-01-08 17:14:18,107 INFO Check delete configs from  time 2025-01-08 17:13:48.103
+
+2025-01-08 17:14:18,109 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:14:18,109 INFO Check changeConfig start
+
+2025-01-08 17:14:18,109 INFO Check changed configs from  time 2025-01-08 17:13:48.103,lastMaxId=0
+
+2025-01-08 17:14:18,110 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:14:18.107
+
+2025-01-08 17:14:18,110 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:14:48,110 INFO DumpChange start ,from time 2025-01-08 17:14:18.107,current time 2025-01-08 17:14:48.11
+
+2025-01-08 17:14:48,110 INFO Start to check delete configs from  time 2025-01-08 17:14:18.107
+
+2025-01-08 17:14:48,110 INFO Check delete configs from  time 2025-01-08 17:14:18.107
+
+2025-01-08 17:14:48,112 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:14:48,112 INFO Check changeConfig start
+
+2025-01-08 17:14:48,112 INFO Check changed configs from  time 2025-01-08 17:14:18.107,lastMaxId=0
+
+2025-01-08 17:14:48,112 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:14:48.11
+
+2025-01-08 17:14:48,112 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:15:18,113 INFO DumpChange start ,from time 2025-01-08 17:14:48.11,current time 2025-01-08 17:15:18.113
+
+2025-01-08 17:15:18,113 INFO Start to check delete configs from  time 2025-01-08 17:14:48.11
+
+2025-01-08 17:15:18,114 INFO Check delete configs from  time 2025-01-08 17:14:48.11
+
+2025-01-08 17:15:18,117 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:15:18,117 INFO Check changeConfig start
+
+2025-01-08 17:15:18,117 INFO Check changed configs from  time 2025-01-08 17:14:48.11,lastMaxId=0
+
+2025-01-08 17:15:18,117 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:15:18.113
+
+2025-01-08 17:15:18,117 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:15:48,118 INFO DumpChange start ,from time 2025-01-08 17:15:18.113,current time 2025-01-08 17:15:48.118
+
+2025-01-08 17:15:48,118 INFO Start to check delete configs from  time 2025-01-08 17:15:18.113
+
+2025-01-08 17:15:48,118 INFO Check delete configs from  time 2025-01-08 17:15:18.113
+
+2025-01-08 17:15:48,122 INFO Check delete configs finished,cost:4
+
+2025-01-08 17:15:48,122 INFO Check changeConfig start
+
+2025-01-08 17:15:48,122 INFO Check changed configs from  time 2025-01-08 17:15:18.113,lastMaxId=0
+
+2025-01-08 17:15:48,123 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:15:48.118
+
+2025-01-08 17:15:48,123 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:16:18,123 INFO DumpChange start ,from time 2025-01-08 17:15:48.118,current time 2025-01-08 17:16:18.123
+
+2025-01-08 17:16:18,123 INFO Start to check delete configs from  time 2025-01-08 17:15:48.118
+
+2025-01-08 17:16:18,123 INFO Check delete configs from  time 2025-01-08 17:15:48.118
+
+2025-01-08 17:16:18,126 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:16:18,126 INFO Check changeConfig start
+
+2025-01-08 17:16:18,126 INFO Check changed configs from  time 2025-01-08 17:15:48.118,lastMaxId=0
+
+2025-01-08 17:16:18,126 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:16:18.123
+
+2025-01-08 17:16:18,127 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:16:48,127 INFO DumpChange start ,from time 2025-01-08 17:16:18.123,current time 2025-01-08 17:16:48.127
+
+2025-01-08 17:16:48,127 INFO Start to check delete configs from  time 2025-01-08 17:16:18.123
+
+2025-01-08 17:16:48,127 INFO Check delete configs from  time 2025-01-08 17:16:18.123
+
+2025-01-08 17:16:48,129 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:16:48,129 INFO Check changeConfig start
+
+2025-01-08 17:16:48,129 INFO Check changed configs from  time 2025-01-08 17:16:18.123,lastMaxId=0
+
+2025-01-08 17:16:48,130 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:16:48.127
+
+2025-01-08 17:16:48,130 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:17:18,130 INFO DumpChange start ,from time 2025-01-08 17:16:48.127,current time 2025-01-08 17:17:18.13
+
+2025-01-08 17:17:18,130 INFO Start to check delete configs from  time 2025-01-08 17:16:48.127
+
+2025-01-08 17:17:18,130 INFO Check delete configs from  time 2025-01-08 17:16:48.127
+
+2025-01-08 17:17:18,132 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:17:18,132 INFO Check changeConfig start
+
+2025-01-08 17:17:18,132 INFO Check changed configs from  time 2025-01-08 17:16:48.127,lastMaxId=0
+
+2025-01-08 17:17:18,133 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:17:18.13
+
+2025-01-08 17:17:18,133 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:17:48,133 INFO DumpChange start ,from time 2025-01-08 17:17:18.13,current time 2025-01-08 17:17:48.133
+
+2025-01-08 17:17:48,133 INFO Start to check delete configs from  time 2025-01-08 17:17:18.13
+
+2025-01-08 17:17:48,133 INFO Check delete configs from  time 2025-01-08 17:17:18.13
+
+2025-01-08 17:17:48,136 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:17:48,136 INFO Check changeConfig start
+
+2025-01-08 17:17:48,136 INFO Check changed configs from  time 2025-01-08 17:17:18.13,lastMaxId=0
+
+2025-01-08 17:17:48,137 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:17:48.133
+
+2025-01-08 17:17:48,137 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:18:18,137 INFO DumpChange start ,from time 2025-01-08 17:17:48.133,current time 2025-01-08 17:18:18.137
+
+2025-01-08 17:18:18,137 INFO Start to check delete configs from  time 2025-01-08 17:17:48.133
+
+2025-01-08 17:18:18,137 INFO Check delete configs from  time 2025-01-08 17:17:48.133
+
+2025-01-08 17:18:18,140 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:18:18,140 INFO Check changeConfig start
+
+2025-01-08 17:18:18,140 INFO Check changed configs from  time 2025-01-08 17:17:48.133,lastMaxId=0
+
+2025-01-08 17:18:18,141 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:18:18.137
+
+2025-01-08 17:18:18,141 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:18:48,141 INFO DumpChange start ,from time 2025-01-08 17:18:18.137,current time 2025-01-08 17:18:48.141
+
+2025-01-08 17:18:48,141 INFO Start to check delete configs from  time 2025-01-08 17:18:18.137
+
+2025-01-08 17:18:48,141 INFO Check delete configs from  time 2025-01-08 17:18:18.137
+
+2025-01-08 17:18:48,143 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:18:48,143 INFO Check changeConfig start
+
+2025-01-08 17:18:48,143 INFO Check changed configs from  time 2025-01-08 17:18:18.137,lastMaxId=0
+
+2025-01-08 17:18:48,144 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:18:48.141
+
+2025-01-08 17:18:48,144 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:19:18,144 INFO DumpChange start ,from time 2025-01-08 17:18:48.141,current time 2025-01-08 17:19:18.144
+
+2025-01-08 17:19:18,145 INFO Start to check delete configs from  time 2025-01-08 17:18:48.141
+
+2025-01-08 17:19:18,145 INFO Check delete configs from  time 2025-01-08 17:18:48.141
+
+2025-01-08 17:19:18,147 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:19:18,147 INFO Check changeConfig start
+
+2025-01-08 17:19:18,147 INFO Check changed configs from  time 2025-01-08 17:18:48.141,lastMaxId=0
+
+2025-01-08 17:19:18,148 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:19:18.144
+
+2025-01-08 17:19:18,148 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:19:48,149 INFO DumpChange start ,from time 2025-01-08 17:19:18.144,current time 2025-01-08 17:19:48.149
+
+2025-01-08 17:19:48,149 INFO Start to check delete configs from  time 2025-01-08 17:19:18.144
+
+2025-01-08 17:19:48,149 INFO Check delete configs from  time 2025-01-08 17:19:18.144
+
+2025-01-08 17:19:48,151 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:19:48,151 INFO Check changeConfig start
+
+2025-01-08 17:19:48,151 INFO Check changed configs from  time 2025-01-08 17:19:18.144,lastMaxId=0
+
+2025-01-08 17:19:48,152 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:19:48.149
+
+2025-01-08 17:19:48,152 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:20:18,153 INFO DumpChange start ,from time 2025-01-08 17:19:48.149,current time 2025-01-08 17:20:18.153
+
+2025-01-08 17:20:18,153 INFO Start to check delete configs from  time 2025-01-08 17:19:48.149
+
+2025-01-08 17:20:18,153 INFO Check delete configs from  time 2025-01-08 17:19:48.149
+
+2025-01-08 17:20:18,155 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:20:18,155 INFO Check changeConfig start
+
+2025-01-08 17:20:18,155 INFO Check changed configs from  time 2025-01-08 17:19:48.149,lastMaxId=0
+
+2025-01-08 17:20:18,156 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:20:18.153
+
+2025-01-08 17:20:18,156 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:20:48,156 INFO DumpChange start ,from time 2025-01-08 17:20:18.153,current time 2025-01-08 17:20:48.156
+
+2025-01-08 17:20:48,157 INFO Start to check delete configs from  time 2025-01-08 17:20:18.153
+
+2025-01-08 17:20:48,157 INFO Check delete configs from  time 2025-01-08 17:20:18.153
+
+2025-01-08 17:20:48,159 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:20:48,159 INFO Check changeConfig start
+
+2025-01-08 17:20:48,159 INFO Check changed configs from  time 2025-01-08 17:20:18.153,lastMaxId=0
+
+2025-01-08 17:20:48,160 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:20:48.156
+
+2025-01-08 17:20:48,160 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:21:18,160 INFO DumpChange start ,from time 2025-01-08 17:20:48.156,current time 2025-01-08 17:21:18.16
+
+2025-01-08 17:21:18,160 INFO Start to check delete configs from  time 2025-01-08 17:20:48.156
+
+2025-01-08 17:21:18,160 INFO Check delete configs from  time 2025-01-08 17:20:48.156
+
+2025-01-08 17:21:18,163 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:21:18,163 INFO Check changeConfig start
+
+2025-01-08 17:21:18,163 INFO Check changed configs from  time 2025-01-08 17:20:48.156,lastMaxId=0
+
+2025-01-08 17:21:18,164 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:21:18.16
+
+2025-01-08 17:21:18,164 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:21:48,164 INFO DumpChange start ,from time 2025-01-08 17:21:18.16,current time 2025-01-08 17:21:48.164
+
+2025-01-08 17:21:48,165 INFO Start to check delete configs from  time 2025-01-08 17:21:18.16
+
+2025-01-08 17:21:48,165 INFO Check delete configs from  time 2025-01-08 17:21:18.16
+
+2025-01-08 17:21:48,168 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:21:48,168 INFO Check changeConfig start
+
+2025-01-08 17:21:48,168 INFO Check changed configs from  time 2025-01-08 17:21:18.16,lastMaxId=0
+
+2025-01-08 17:21:48,169 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:21:48.164
+
+2025-01-08 17:21:48,169 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:22:18,169 INFO DumpChange start ,from time 2025-01-08 17:21:48.164,current time 2025-01-08 17:22:18.169
+
+2025-01-08 17:22:18,169 INFO Start to check delete configs from  time 2025-01-08 17:21:48.164
+
+2025-01-08 17:22:18,170 INFO Check delete configs from  time 2025-01-08 17:21:48.164
+
+2025-01-08 17:22:18,172 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:22:18,172 INFO Check changeConfig start
+
+2025-01-08 17:22:18,172 INFO Check changed configs from  time 2025-01-08 17:21:48.164,lastMaxId=0
+
+2025-01-08 17:22:18,173 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:22:18.169
+
+2025-01-08 17:22:18,173 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:22:48,173 INFO DumpChange start ,from time 2025-01-08 17:22:18.169,current time 2025-01-08 17:22:48.173
+
+2025-01-08 17:22:48,173 INFO Start to check delete configs from  time 2025-01-08 17:22:18.169
+
+2025-01-08 17:22:48,173 INFO Check delete configs from  time 2025-01-08 17:22:18.169
+
+2025-01-08 17:22:48,176 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:22:48,176 INFO Check changeConfig start
+
+2025-01-08 17:22:48,176 INFO Check changed configs from  time 2025-01-08 17:22:18.169,lastMaxId=0
+
+2025-01-08 17:22:48,177 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:22:48.173
+
+2025-01-08 17:22:48,177 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:23:18,177 INFO DumpChange start ,from time 2025-01-08 17:22:48.173,current time 2025-01-08 17:23:18.177
+
+2025-01-08 17:23:18,177 INFO Start to check delete configs from  time 2025-01-08 17:22:48.173
+
+2025-01-08 17:23:18,177 INFO Check delete configs from  time 2025-01-08 17:22:48.173
+
+2025-01-08 17:23:18,180 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:23:18,180 INFO Check changeConfig start
+
+2025-01-08 17:23:18,180 INFO Check changed configs from  time 2025-01-08 17:22:48.173,lastMaxId=0
+
+2025-01-08 17:23:18,181 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:23:18.177
+
+2025-01-08 17:23:18,181 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:23:48,181 INFO DumpChange start ,from time 2025-01-08 17:23:18.177,current time 2025-01-08 17:23:48.181
+
+2025-01-08 17:23:48,181 INFO Start to check delete configs from  time 2025-01-08 17:23:18.177
+
+2025-01-08 17:23:48,181 INFO Check delete configs from  time 2025-01-08 17:23:18.177
+
+2025-01-08 17:23:48,184 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:23:48,184 INFO Check changeConfig start
+
+2025-01-08 17:23:48,184 INFO Check changed configs from  time 2025-01-08 17:23:18.177,lastMaxId=0
+
+2025-01-08 17:23:48,185 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:23:48.181
+
+2025-01-08 17:23:48,185 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:24:18,186 INFO DumpChange start ,from time 2025-01-08 17:23:48.181,current time 2025-01-08 17:24:18.186
+
+2025-01-08 17:24:18,186 INFO Start to check delete configs from  time 2025-01-08 17:23:48.181
+
+2025-01-08 17:24:18,186 INFO Check delete configs from  time 2025-01-08 17:23:48.181
+
+2025-01-08 17:24:18,188 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:24:18,188 INFO Check changeConfig start
+
+2025-01-08 17:24:18,188 INFO Check changed configs from  time 2025-01-08 17:23:48.181,lastMaxId=0
+
+2025-01-08 17:24:18,189 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:24:18.186
+
+2025-01-08 17:24:18,189 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:24:48,189 INFO DumpChange start ,from time 2025-01-08 17:24:18.186,current time 2025-01-08 17:24:48.189
+
+2025-01-08 17:24:48,190 INFO Start to check delete configs from  time 2025-01-08 17:24:18.186
+
+2025-01-08 17:24:48,190 INFO Check delete configs from  time 2025-01-08 17:24:18.186
+
+2025-01-08 17:24:48,192 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:24:48,192 INFO Check changeConfig start
+
+2025-01-08 17:24:48,192 INFO Check changed configs from  time 2025-01-08 17:24:18.186,lastMaxId=0
+
+2025-01-08 17:24:48,193 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:24:48.189
+
+2025-01-08 17:24:48,193 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:25:18,193 INFO DumpChange start ,from time 2025-01-08 17:24:48.189,current time 2025-01-08 17:25:18.193
+
+2025-01-08 17:25:18,194 INFO Start to check delete configs from  time 2025-01-08 17:24:48.189
+
+2025-01-08 17:25:18,194 INFO Check delete configs from  time 2025-01-08 17:24:48.189
+
+2025-01-08 17:25:18,196 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:25:18,196 INFO Check changeConfig start
+
+2025-01-08 17:25:18,196 INFO Check changed configs from  time 2025-01-08 17:24:48.189,lastMaxId=0
+
+2025-01-08 17:25:18,196 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:25:18.193
+
+2025-01-08 17:25:18,196 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:25:48,197 INFO DumpChange start ,from time 2025-01-08 17:25:18.193,current time 2025-01-08 17:25:48.197
+
+2025-01-08 17:25:48,197 INFO Start to check delete configs from  time 2025-01-08 17:25:18.193
+
+2025-01-08 17:25:48,197 INFO Check delete configs from  time 2025-01-08 17:25:18.193
+
+2025-01-08 17:25:48,200 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:25:48,200 INFO Check changeConfig start
+
+2025-01-08 17:25:48,200 INFO Check changed configs from  time 2025-01-08 17:25:18.193,lastMaxId=0
+
+2025-01-08 17:25:48,201 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:25:48.197
+
+2025-01-08 17:25:48,201 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:26:18,201 INFO DumpChange start ,from time 2025-01-08 17:25:48.197,current time 2025-01-08 17:26:18.201
+
+2025-01-08 17:26:18,201 INFO Start to check delete configs from  time 2025-01-08 17:25:48.197
+
+2025-01-08 17:26:18,201 INFO Check delete configs from  time 2025-01-08 17:25:48.197
+
+2025-01-08 17:26:18,203 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:26:18,203 INFO Check changeConfig start
+
+2025-01-08 17:26:18,203 INFO Check changed configs from  time 2025-01-08 17:25:48.197,lastMaxId=0
+
+2025-01-08 17:26:18,204 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:26:18.201
+
+2025-01-08 17:26:18,204 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:26:48,205 INFO DumpChange start ,from time 2025-01-08 17:26:18.201,current time 2025-01-08 17:26:48.205
+
+2025-01-08 17:26:48,205 INFO Start to check delete configs from  time 2025-01-08 17:26:18.201
+
+2025-01-08 17:26:48,205 INFO Check delete configs from  time 2025-01-08 17:26:18.201
+
+2025-01-08 17:26:48,207 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:26:48,207 INFO Check changeConfig start
+
+2025-01-08 17:26:48,207 INFO Check changed configs from  time 2025-01-08 17:26:18.201,lastMaxId=0
+
+2025-01-08 17:26:48,208 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:26:48.205
+
+2025-01-08 17:26:48,208 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:27:18,208 INFO DumpChange start ,from time 2025-01-08 17:26:48.205,current time 2025-01-08 17:27:18.208
+
+2025-01-08 17:27:18,209 INFO Start to check delete configs from  time 2025-01-08 17:26:48.205
+
+2025-01-08 17:27:18,209 INFO Check delete configs from  time 2025-01-08 17:26:48.205
+
+2025-01-08 17:27:18,211 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:27:18,211 INFO Check changeConfig start
+
+2025-01-08 17:27:18,211 INFO Check changed configs from  time 2025-01-08 17:26:48.205,lastMaxId=0
+
+2025-01-08 17:27:18,212 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:27:18.208
+
+2025-01-08 17:27:18,212 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:27:48,212 INFO DumpChange start ,from time 2025-01-08 17:27:18.208,current time 2025-01-08 17:27:48.212
+
+2025-01-08 17:27:48,213 INFO Start to check delete configs from  time 2025-01-08 17:27:18.208
+
+2025-01-08 17:27:48,213 INFO Check delete configs from  time 2025-01-08 17:27:18.208
+
+2025-01-08 17:27:48,215 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:27:48,215 INFO Check changeConfig start
+
+2025-01-08 17:27:48,215 INFO Check changed configs from  time 2025-01-08 17:27:18.208,lastMaxId=0
+
+2025-01-08 17:27:48,216 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:27:48.212
+
+2025-01-08 17:27:48,216 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:28:18,216 INFO DumpChange start ,from time 2025-01-08 17:27:48.212,current time 2025-01-08 17:28:18.216
+
+2025-01-08 17:28:18,216 INFO Start to check delete configs from  time 2025-01-08 17:27:48.212
+
+2025-01-08 17:28:18,216 INFO Check delete configs from  time 2025-01-08 17:27:48.212
+
+2025-01-08 17:28:18,219 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:28:18,219 INFO Check changeConfig start
+
+2025-01-08 17:28:18,219 INFO Check changed configs from  time 2025-01-08 17:27:48.212,lastMaxId=0
+
+2025-01-08 17:28:18,219 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:28:18.216
+
+2025-01-08 17:28:18,220 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:28:48,220 INFO DumpChange start ,from time 2025-01-08 17:28:18.216,current time 2025-01-08 17:28:48.22
+
+2025-01-08 17:28:48,220 INFO Start to check delete configs from  time 2025-01-08 17:28:18.216
+
+2025-01-08 17:28:48,220 INFO Check delete configs from  time 2025-01-08 17:28:18.216
+
+2025-01-08 17:28:48,222 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:28:48,222 INFO Check changeConfig start
+
+2025-01-08 17:28:48,222 INFO Check changed configs from  time 2025-01-08 17:28:18.216,lastMaxId=0
+
+2025-01-08 17:28:48,223 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:28:48.22
+
+2025-01-08 17:28:48,223 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:29:18,223 INFO DumpChange start ,from time 2025-01-08 17:28:48.22,current time 2025-01-08 17:29:18.223
+
+2025-01-08 17:29:18,223 INFO Start to check delete configs from  time 2025-01-08 17:28:48.22
+
+2025-01-08 17:29:18,223 INFO Check delete configs from  time 2025-01-08 17:28:48.22
+
+2025-01-08 17:29:18,225 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:29:18,225 INFO Check changeConfig start
+
+2025-01-08 17:29:18,225 INFO Check changed configs from  time 2025-01-08 17:28:48.22,lastMaxId=0
+
+2025-01-08 17:29:18,226 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:29:18.223
+
+2025-01-08 17:29:18,226 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:29:48,226 INFO DumpChange start ,from time 2025-01-08 17:29:18.223,current time 2025-01-08 17:29:48.226
+
+2025-01-08 17:29:48,227 INFO Start to check delete configs from  time 2025-01-08 17:29:18.223
+
+2025-01-08 17:29:48,227 INFO Check delete configs from  time 2025-01-08 17:29:18.223
+
+2025-01-08 17:29:48,229 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:29:48,229 INFO Check changeConfig start
+
+2025-01-08 17:29:48,229 INFO Check changed configs from  time 2025-01-08 17:29:18.223,lastMaxId=0
+
+2025-01-08 17:29:48,230 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:29:48.226
+
+2025-01-08 17:29:48,230 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:30:18,230 INFO DumpChange start ,from time 2025-01-08 17:29:48.226,current time 2025-01-08 17:30:18.23
+
+2025-01-08 17:30:18,230 INFO Start to check delete configs from  time 2025-01-08 17:29:48.226
+
+2025-01-08 17:30:18,230 INFO Check delete configs from  time 2025-01-08 17:29:48.226
+
+2025-01-08 17:30:18,233 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:30:18,233 INFO Check changeConfig start
+
+2025-01-08 17:30:18,233 INFO Check changed configs from  time 2025-01-08 17:29:48.226,lastMaxId=0
+
+2025-01-08 17:30:18,234 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:30:18.23
+
+2025-01-08 17:30:18,234 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:30:48,234 INFO DumpChange start ,from time 2025-01-08 17:30:18.23,current time 2025-01-08 17:30:48.234
+
+2025-01-08 17:30:48,234 INFO Start to check delete configs from  time 2025-01-08 17:30:18.23
+
+2025-01-08 17:30:48,234 INFO Check delete configs from  time 2025-01-08 17:30:18.23
+
+2025-01-08 17:30:48,236 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:30:48,236 INFO Check changeConfig start
+
+2025-01-08 17:30:48,237 INFO Check changed configs from  time 2025-01-08 17:30:18.23,lastMaxId=0
+
+2025-01-08 17:30:48,237 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:30:48.234
+
+2025-01-08 17:30:48,237 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:31:18,238 INFO DumpChange start ,from time 2025-01-08 17:30:48.234,current time 2025-01-08 17:31:18.238
+
+2025-01-08 17:31:18,238 INFO Start to check delete configs from  time 2025-01-08 17:30:48.234
+
+2025-01-08 17:31:18,238 INFO Check delete configs from  time 2025-01-08 17:30:48.234
+
+2025-01-08 17:31:18,240 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:31:18,240 INFO Check changeConfig start
+
+2025-01-08 17:31:18,240 INFO Check changed configs from  time 2025-01-08 17:30:48.234,lastMaxId=0
+
+2025-01-08 17:31:18,240 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:31:18.238
+
+2025-01-08 17:31:18,240 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:31:48,241 INFO DumpChange start ,from time 2025-01-08 17:31:18.238,current time 2025-01-08 17:31:48.241
+
+2025-01-08 17:31:48,241 INFO Start to check delete configs from  time 2025-01-08 17:31:18.238
+
+2025-01-08 17:31:48,241 INFO Check delete configs from  time 2025-01-08 17:31:18.238
+
+2025-01-08 17:31:48,243 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:31:48,243 INFO Check changeConfig start
+
+2025-01-08 17:31:48,244 INFO Check changed configs from  time 2025-01-08 17:31:18.238,lastMaxId=0
+
+2025-01-08 17:31:48,245 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:31:48.241
+
+2025-01-08 17:31:48,245 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:32:18,245 INFO DumpChange start ,from time 2025-01-08 17:31:48.241,current time 2025-01-08 17:32:18.245
+
+2025-01-08 17:32:18,245 INFO Start to check delete configs from  time 2025-01-08 17:31:48.241
+
+2025-01-08 17:32:18,245 INFO Check delete configs from  time 2025-01-08 17:31:48.241
+
+2025-01-08 17:32:18,247 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:32:18,247 INFO Check changeConfig start
+
+2025-01-08 17:32:18,247 INFO Check changed configs from  time 2025-01-08 17:31:48.241,lastMaxId=0
+
+2025-01-08 17:32:18,248 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:32:18.245
+
+2025-01-08 17:32:18,248 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:32:48,249 INFO DumpChange start ,from time 2025-01-08 17:32:18.245,current time 2025-01-08 17:32:48.249
+
+2025-01-08 17:32:48,249 INFO Start to check delete configs from  time 2025-01-08 17:32:18.245
+
+2025-01-08 17:32:48,249 INFO Check delete configs from  time 2025-01-08 17:32:18.245
+
+2025-01-08 17:32:48,251 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:32:48,251 INFO Check changeConfig start
+
+2025-01-08 17:32:48,251 INFO Check changed configs from  time 2025-01-08 17:32:18.245,lastMaxId=0
+
+2025-01-08 17:32:48,252 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:32:48.249
+
+2025-01-08 17:32:48,252 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:33:18,253 INFO DumpChange start ,from time 2025-01-08 17:32:48.249,current time 2025-01-08 17:33:18.253
+
+2025-01-08 17:33:18,253 INFO Start to check delete configs from  time 2025-01-08 17:32:48.249
+
+2025-01-08 17:33:18,253 INFO Check delete configs from  time 2025-01-08 17:32:48.249
+
+2025-01-08 17:33:18,255 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:33:18,255 INFO Check changeConfig start
+
+2025-01-08 17:33:18,255 INFO Check changed configs from  time 2025-01-08 17:32:48.249,lastMaxId=0
+
+2025-01-08 17:33:18,256 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:33:18.253
+
+2025-01-08 17:33:18,256 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:33:48,257 INFO DumpChange start ,from time 2025-01-08 17:33:18.253,current time 2025-01-08 17:33:48.257
+
+2025-01-08 17:33:48,257 INFO Start to check delete configs from  time 2025-01-08 17:33:18.253
+
+2025-01-08 17:33:48,257 INFO Check delete configs from  time 2025-01-08 17:33:18.253
+
+2025-01-08 17:33:48,259 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:33:48,259 INFO Check changeConfig start
+
+2025-01-08 17:33:48,259 INFO Check changed configs from  time 2025-01-08 17:33:18.253,lastMaxId=0
+
+2025-01-08 17:33:48,260 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:33:48.257
+
+2025-01-08 17:33:48,260 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:34:18,260 INFO DumpChange start ,from time 2025-01-08 17:33:48.257,current time 2025-01-08 17:34:18.26
+
+2025-01-08 17:34:18,260 INFO Start to check delete configs from  time 2025-01-08 17:33:48.257
+
+2025-01-08 17:34:18,260 INFO Check delete configs from  time 2025-01-08 17:33:48.257
+
+2025-01-08 17:34:18,261 INFO Check delete configs finished,cost:1
+
+2025-01-08 17:34:18,261 INFO Check changeConfig start
+
+2025-01-08 17:34:18,262 INFO Check changed configs from  time 2025-01-08 17:33:48.257,lastMaxId=0
+
+2025-01-08 17:34:18,262 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:34:18.26
+
+2025-01-08 17:34:18,262 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:34:48,262 INFO DumpChange start ,from time 2025-01-08 17:34:18.26,current time 2025-01-08 17:34:48.262
+
+2025-01-08 17:34:48,262 INFO Start to check delete configs from  time 2025-01-08 17:34:18.26
+
+2025-01-08 17:34:48,262 INFO Check delete configs from  time 2025-01-08 17:34:18.26
+
+2025-01-08 17:34:48,264 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:34:48,264 INFO Check changeConfig start
+
+2025-01-08 17:34:48,264 INFO Check changed configs from  time 2025-01-08 17:34:18.26,lastMaxId=0
+
+2025-01-08 17:34:48,265 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:34:48.262
+
+2025-01-08 17:34:48,265 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:35:18,265 INFO DumpChange start ,from time 2025-01-08 17:34:48.262,current time 2025-01-08 17:35:18.265
+
+2025-01-08 17:35:18,265 INFO Start to check delete configs from  time 2025-01-08 17:34:48.262
+
+2025-01-08 17:35:18,265 INFO Check delete configs from  time 2025-01-08 17:34:48.262
+
+2025-01-08 17:35:18,267 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:35:18,267 INFO Check changeConfig start
+
+2025-01-08 17:35:18,267 INFO Check changed configs from  time 2025-01-08 17:34:48.262,lastMaxId=0
+
+2025-01-08 17:35:18,267 INFO Check changed configs finished,cost:0, next task running will from start time  2025-01-08 17:35:18.265
+
+2025-01-08 17:35:18,267 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:35:48,268 INFO DumpChange start ,from time 2025-01-08 17:35:18.265,current time 2025-01-08 17:35:48.268
+
+2025-01-08 17:35:48,268 INFO Start to check delete configs from  time 2025-01-08 17:35:18.265
+
+2025-01-08 17:35:48,268 INFO Check delete configs from  time 2025-01-08 17:35:18.265
+
+2025-01-08 17:35:48,270 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:35:48,270 INFO Check changeConfig start
+
+2025-01-08 17:35:48,270 INFO Check changed configs from  time 2025-01-08 17:35:18.265,lastMaxId=0
+
+2025-01-08 17:35:48,271 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:35:48.268
+
+2025-01-08 17:35:48,271 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:36:18,271 INFO DumpChange start ,from time 2025-01-08 17:35:48.268,current time 2025-01-08 17:36:18.271
+
+2025-01-08 17:36:18,272 INFO Start to check delete configs from  time 2025-01-08 17:35:48.268
+
+2025-01-08 17:36:18,272 INFO Check delete configs from  time 2025-01-08 17:35:48.268
+
+2025-01-08 17:36:18,273 INFO Check delete configs finished,cost:1
+
+2025-01-08 17:36:18,273 INFO Check changeConfig start
+
+2025-01-08 17:36:18,273 INFO Check changed configs from  time 2025-01-08 17:35:48.268,lastMaxId=0
+
+2025-01-08 17:36:18,274 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:36:18.271
+
+2025-01-08 17:36:18,274 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:36:48,275 INFO DumpChange start ,from time 2025-01-08 17:36:18.271,current time 2025-01-08 17:36:48.275
+
+2025-01-08 17:36:48,275 INFO Start to check delete configs from  time 2025-01-08 17:36:18.271
+
+2025-01-08 17:36:48,275 INFO Check delete configs from  time 2025-01-08 17:36:18.271
+
+2025-01-08 17:36:48,278 INFO Check delete configs finished,cost:3
+
+2025-01-08 17:36:48,278 INFO Check changeConfig start
+
+2025-01-08 17:36:48,278 INFO Check changed configs from  time 2025-01-08 17:36:18.271,lastMaxId=0
+
+2025-01-08 17:36:48,279 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:36:48.275
+
+2025-01-08 17:36:48,279 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:37:18,279 INFO DumpChange start ,from time 2025-01-08 17:36:48.275,current time 2025-01-08 17:37:18.279
+
+2025-01-08 17:37:18,280 INFO Start to check delete configs from  time 2025-01-08 17:36:48.275
+
+2025-01-08 17:37:18,280 INFO Check delete configs from  time 2025-01-08 17:36:48.275
+
+2025-01-08 17:37:18,282 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:37:18,282 INFO Check changeConfig start
+
+2025-01-08 17:37:18,285 INFO Check changed configs from  time 2025-01-08 17:36:48.275,lastMaxId=0
+
+2025-01-08 17:37:18,286 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:37:18.279
+
+2025-01-08 17:37:18,286 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:37:48,286 INFO DumpChange start ,from time 2025-01-08 17:37:18.279,current time 2025-01-08 17:37:48.286
+
+2025-01-08 17:37:48,287 INFO Start to check delete configs from  time 2025-01-08 17:37:18.279
+
+2025-01-08 17:37:48,287 INFO Check delete configs from  time 2025-01-08 17:37:18.279
+
+2025-01-08 17:37:48,289 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:37:48,289 INFO Check changeConfig start
+
+2025-01-08 17:37:48,289 INFO Check changed configs from  time 2025-01-08 17:37:18.279,lastMaxId=0
+
+2025-01-08 17:37:48,290 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:37:48.286
+
+2025-01-08 17:37:48,290 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:38:18,290 INFO DumpChange start ,from time 2025-01-08 17:37:48.286,current time 2025-01-08 17:38:18.29
+
+2025-01-08 17:38:18,291 INFO Start to check delete configs from  time 2025-01-08 17:37:48.286
+
+2025-01-08 17:38:18,291 INFO Check delete configs from  time 2025-01-08 17:37:48.286
+
+2025-01-08 17:38:18,293 INFO Check delete configs finished,cost:2
+
+2025-01-08 17:38:18,293 INFO Check changeConfig start
+
+2025-01-08 17:38:18,293 INFO Check changed configs from  time 2025-01-08 17:37:48.286,lastMaxId=0
+
+2025-01-08 17:38:18,294 INFO Check changed configs finished,cost:1, next task running will from start time  2025-01-08 17:38:18.29
+
+2025-01-08 17:38:18,294 INFO Next dump change will scheduled after 30000 milliseconds
+
+2025-01-08 17:38:48,294 INFO DumpChange start ,from time 2025-01-08 17:38:18.29,current time 2025-01-08 17:38:48.294
+
+2025-01-08 17:38:48,295 INFO Start to check delete configs from  time 2025-01-08 17:38:18.29
+
+2025-01-08 17:38:48,295 INFO Check delete configs from  time 2025-01-08 17:38:18.29
+
+2025-01-08 17:38:53,028 ERROR An error occurred while executing method [findDeletedConfig].
+ Parameters: [2025-01-08 17:38:18.29, 0, 100].
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:643)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:810)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl.findDeletedConfig(ExternalHistoryConfigInfoPersistServiceImpl.java:134)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl$$FastClassBySpringCGLIB$$46cbab41.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:707)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl$$EnhancerBySpringCGLIB$$b38e9da4.findDeletedConfig(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpChangeConfigWorker.run(DumpChangeConfigWorker.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:200)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:161)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	... 27 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:944)
+	at com.zaxxer.hikari.util.ConcurrentBag.borrow(ConcurrentBag.java:157)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	... 32 common frames omitted
+2025-01-08 17:38:53,028 ERROR Check changed configs error
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:643)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:810)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl.findDeletedConfig(ExternalHistoryConfigInfoPersistServiceImpl.java:134)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl$$FastClassBySpringCGLIB$$46cbab41.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:792)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:762)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:707)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalHistoryConfigInfoPersistServiceImpl$$EnhancerBySpringCGLIB$$b38e9da4.findDeletedConfig(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpChangeConfigWorker.run(DumpChangeConfigWorker.java:84)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:200)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:161)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	... 27 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:944)
+	at com.zaxxer.hikari.util.ConcurrentBag.borrow(ConcurrentBag.java:157)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	... 32 common frames omitted

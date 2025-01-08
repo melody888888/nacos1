@@ -1506,3 +1506,333 @@ java.lang.IllegalStateException: Not leader
 
 2025-01-08 17:02:37,511 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 16 to 16, cost 0 ms.
 
+2025-01-08 17:25:02,734 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_19.
+
+2025-01-08 17:25:02,734 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_19.
+
+2025-01-08 17:25:02,734 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_18.
+
+2025-01-08 17:25:02,760 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 19 to 19, cost 1 ms.
+
+2025-01-08 17:26:44,686 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 17 to 17, cost 1 ms.
+
+2025-01-08 17:28:52,660 INFO The channel nacos1:7848 is in state: IDLE.
+
+2025-01-08 17:29:01,810 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos3:7848 -> nacos1:7848]
+
+2025-01-08 17:29:01,874 INFO Connection disconnected: /172.19.0.4:38544
+
+2025-01-08 17:29:02,425 INFO Connection disconnected: /172.19.0.3:56970
+
+2025-01-08 17:30:07,135 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 19 to 19, cost 1 ms.
+
+2025-01-08 17:32:37,542 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 16 to 16, cost 0 ms.
+
+2025-01-08 17:38:34,339 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=1, error=Status[ENOENT<1012>: Peer id not found: nacos1:7848, group: naming_service_metadata], groupId=naming_service_metadata
+
+2025-01-08 17:38:34,339 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=1, error=Status[ENOENT<1012>: Peer id not found: nacos1:7848, group: naming_instance_metadata], groupId=naming_instance_metadata
+
+2025-01-08 17:38:34,342 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=1, error=Status[ENOENT<1012>: Peer id not found: nacos1:7848, group: naming_persistent_service], groupId=naming_persistent_service
+
+2025-01-08 17:38:34,378 INFO Connection disconnected: /172.19.0.4:53188
+
+2025-01-08 17:38:34,852 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=1, error=Status[ENOENT<1012>: Peer id not found: nacos1:7848, group: naming_persistent_service_v2], groupId=naming_persistent_service_v2
+
+2025-01-08 17:38:36,134 INFO The channel nacos1:7848 is in state: IDLE.
+
+2025-01-08 17:38:36,135 INFO The channel nacos1:7848 is in state: IDLE.
+
+2025-01-08 17:38:36,154 INFO The channel nacos1:7848 is in state: IDLE.
+
+2025-01-08 17:38:36,154 INFO The channel nacos1:7848 is in state: IDLE.
+
+2025-01-08 17:38:36,647 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:36,647 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:36,649 INFO The channel nacos1:7848 is in state: TRANSIENT_FAILURE.
+
+2025-01-08 17:38:36,649 WARN There has been some transient failure on this channel nacos1:7848.
+
+2025-01-08 17:38:36,650 INFO The channel nacos1:7848 is in state: TRANSIENT_FAILURE.
+
+2025-01-08 17:38:36,650 WARN There has been some transient failure on this channel nacos1:7848.
+
+2025-01-08 17:38:36,656 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:36,657 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:36,657 INFO The channel nacos1:7848 is in state: TRANSIENT_FAILURE.
+
+2025-01-08 17:38:36,657 WARN There has been some transient failure on this channel nacos1:7848.
+
+2025-01-08 17:38:36,662 INFO The channel nacos1:7848 is in state: TRANSIENT_FAILURE.
+
+2025-01-08 17:38:36,662 WARN There has been some transient failure on this channel nacos1:7848.
+
+2025-01-08 17:38:37,153 WARN Channel[nacos1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2025-01-08 17:38:37,153 WARN Channel[nacos1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2025-01-08 17:38:37,158 WARN Channel[nacos1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2025-01-08 17:38:37,164 WARN Channel[nacos1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2025-01-08 17:38:37,176 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:37,176 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:37,176 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:37,176 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:37,177 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:37,177 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:37,176 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:37,177 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:37,679 INFO Creating new channel to: nacos1:7848.
+
+2025-01-08 17:38:37,679 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:37,681 INFO Creating new channel to: nacos1:7848.
+
+2025-01-08 17:38:37,681 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:37,686 INFO Creating new channel to: nacos1:7848.
+
+2025-01-08 17:38:37,686 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:37,687 INFO Creating new channel to: nacos1:7848.
+
+2025-01-08 17:38:37,687 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2025-01-08 17:38:52,188 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=11, error=Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: CallOptions deadline exceeded after 2.499984343s. Name resolution delay 0.000000000 seconds. [closed=[], open=[[buffered_nanos=2500123607, waiting_for_connection]]]], groupId=naming_persistent_service
+
+2025-01-08 17:38:52,190 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=11, error=Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: CallOptions deadline exceeded after 2.499996339s. Name resolution delay 0.000000000 seconds. [closed=[], open=[[buffered_nanos=2500274389, waiting_for_connection]]]], groupId=naming_instance_metadata
+
+2025-01-08 17:38:52,193 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=11, error=Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: CallOptions deadline exceeded after 2.499997181s. Name resolution delay 0.000000000 seconds. [closed=[], open=[[buffered_nanos=2501699022, waiting_for_connection]]]], groupId=naming_service_metadata
+
+2025-01-08 17:38:52,234 INFO Node <naming_service_metadata/nacos3:7848> shutdown, currTerm=15 state=STATE_LEADER.
+
+2025-01-08 17:38:52,235 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-01-08 17:38:52,235 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=15, lastLogIncluded=0, lastLogIndex=15, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_service_metadata, waitId=12, type=Follower] is going to quit
+
+2025-01-08 17:38:52,240 WARN Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=15, lastLogIncluded=0, lastLogIndex=15, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_service_metadata, waitId=13, type=Follower] stops sending entries.
+
+2025-01-08 17:38:52,243 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=15, votedFor=nacos3:7848, cost time=2 ms
+
+2025-01-08 17:38:52,243 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=15, lastLogIncluded=0, lastLogIndex=15, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_service_metadata, waitId=13, type=Follower] is going to quit
+
+2025-01-08 17:38:52,244 INFO Shutting down FSMCaller...
+
+2025-01-08 17:38:52,246 INFO onShutdown.
+
+2025-01-08 17:38:52,250 INFO Shutdown managed channel: nacos2:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=214, target=nacos2:7848}}.
+
+2025-01-08 17:38:52,251 INFO The channel nacos2:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,251 WARN This channel nacos2:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,253 INFO Shutdown managed channel: nacos1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=438, target=nacos1:7848}}.
+
+2025-01-08 17:38:52,253 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,253 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,257 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,257 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,257 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,257 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,260 INFO Node <naming_service_metadata/nacos3:7848> shutdown, currTerm=15 state=STATE_SHUTTING.
+
+2025-01-08 17:38:52,260 INFO Stop the RaftGroupService successfully.
+
+2025-01-08 17:38:52,260 INFO Node <naming_persistent_service/nacos3:7848> shutdown, currTerm=18 state=STATE_LEADER.
+
+2025-01-08 17:38:52,262 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=18, lastLogIncluded=0, lastLogIndex=18, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_persistent_service, waitId=15, type=Follower] is going to quit
+
+2025-01-08 17:38:52,262 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-01-08 17:38:52,263 WARN Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=18, lastLogIncluded=0, lastLogIndex=18, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_persistent_service, waitId=16, type=Follower] stops sending entries.
+
+2025-01-08 17:38:52,265 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=18, lastLogIncluded=0, lastLogIndex=18, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_persistent_service, waitId=16, type=Follower] is going to quit
+
+2025-01-08 17:38:52,266 INFO The number of active nodes decrement to 3.
+
+2025-01-08 17:38:52,267 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=18, votedFor=nacos3:7848, cost time=4 ms
+
+2025-01-08 17:38:52,267 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@6bcfd040[Shutting down, pool size = 23, active threads = 0, queued tasks = 0, completed tasks = 35].
+
+2025-01-08 17:38:52,267 WARN ThreadId: Replicator [state=Destroyed, statInfo=<running=IDLE, firstLogIndex=18, lastLogIncluded=0, lastLogIndex=18, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_persistent_service, waitId=16, type=Follower] already destroyed, ignore error code: 1001
+
+2025-01-08 17:38:52,268 INFO Shutting down FSMCaller...
+
+2025-01-08 17:38:52,268 INFO onShutdown.
+
+2025-01-08 17:38:52,275 INFO Shutdown managed channel: nacos2:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=190, target=nacos2:7848}}.
+
+2025-01-08 17:38:52,276 INFO The channel nacos2:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,276 WARN This channel nacos2:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,276 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1b7a5095[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 154029].
+
+2025-01-08 17:38:52,277 INFO Shutdown managed channel: nacos1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=426, target=nacos1:7848}}.
+
+2025-01-08 17:38:52,277 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,277 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,281 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service/nacos3:7848>'}.
+
+2025-01-08 17:38:52,281 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service/nacos3:7848>'}.
+
+2025-01-08 17:38:52,281 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service/nacos3:7848>'}.
+
+2025-01-08 17:38:52,281 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service/nacos3:7848>'}.
+
+2025-01-08 17:38:52,282 INFO The number of active nodes decrement to 2.
+
+2025-01-08 17:38:52,285 INFO Node <naming_persistent_service/nacos3:7848> shutdown, currTerm=18 state=STATE_SHUTTING.
+
+2025-01-08 17:38:52,285 INFO Stop the RaftGroupService successfully.
+
+2025-01-08 17:38:52,285 INFO Node <naming_instance_metadata/nacos3:7848> shutdown, currTerm=16 state=STATE_LEADER.
+
+2025-01-08 17:38:52,285 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3d9b9f84[Shutting down, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 205676].
+
+2025-01-08 17:38:52,288 INFO Connection disconnected: /172.19.0.3:40264
+
+2025-01-08 17:38:52,288 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=16, lastLogIncluded=0, lastLogIndex=16, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_instance_metadata, waitId=13, type=Follower] is going to quit
+
+2025-01-08 17:38:52,289 WARN Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=16, lastLogIncluded=0, lastLogIndex=16, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_instance_metadata, waitId=14, type=Follower] stops sending entries.
+
+2025-01-08 17:38:52,289 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-01-08 17:38:52,290 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@5cb7cf53[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 37].
+
+2025-01-08 17:38:52,292 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=16, lastLogIncluded=0, lastLogIndex=16, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_instance_metadata, waitId=14, type=Follower] is going to quit
+
+2025-01-08 17:38:52,292 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=16, votedFor=nacos3:7848, cost time=3 ms
+
+2025-01-08 17:38:52,292 WARN ThreadId: Replicator [state=Destroyed, statInfo=<running=IDLE, firstLogIndex=16, lastLogIncluded=0, lastLogIndex=16, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_instance_metadata, waitId=14, type=Follower] already destroyed, ignore error code: 1001
+
+2025-01-08 17:38:52,292 INFO Shutting down FSMCaller...
+
+2025-01-08 17:38:52,293 INFO Shutdown managed channel: nacos2:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=206, target=nacos2:7848}}.
+
+2025-01-08 17:38:52,293 INFO The channel nacos2:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,293 WARN This channel nacos2:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,294 INFO Shutdown managed channel: nacos1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=428, target=nacos1:7848}}.
+
+2025-01-08 17:38:52,295 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,295 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,298 INFO onShutdown.
+
+2025-01-08 17:38:52,302 INFO The number of active nodes decrement to 1.
+
+2025-01-08 17:38:52,302 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,303 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,303 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1a3018ee[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 35].
+
+2025-01-08 17:38:52,303 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,303 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/nacos3:7848>'}.
+
+2025-01-08 17:38:52,303 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3a2e192d[Shutting down, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 143730].
+
+2025-01-08 17:38:52,304 INFO Node <naming_instance_metadata/nacos3:7848> shutdown, currTerm=16 state=STATE_SHUTTING.
+
+2025-01-08 17:38:52,304 INFO Stop the RaftGroupService successfully.
+
+2025-01-08 17:38:52,304 INFO Node <naming_persistent_service_v2/nacos3:7848> shutdown, currTerm=19 state=STATE_LEADER.
+
+2025-01-08 17:38:52,306 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2025-01-08 17:38:52,306 INFO Replicator Replicator [state=Probe, statInfo=<running=IDLE, firstLogIndex=19, lastLogIncluded=0, lastLogIndex=19, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_persistent_service_v2, waitId=12, type=Follower] is going to quit
+
+2025-01-08 17:38:52,310 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=19, lastLogIncluded=0, lastLogIndex=19, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_persistent_service_v2, waitId=11, type=Follower] is going to quit
+
+2025-01-08 17:38:52,313 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=19, votedFor=nacos3:7848, cost time=3 ms
+
+2025-01-08 17:38:52,313 WARN ThreadId: Replicator [state=Destroyed, statInfo=<running=IDLE, firstLogIndex=19, lastLogIncluded=0, lastLogIndex=19, lastTermIncluded=0>, peerId=nacos2:7848, groupId=naming_persistent_service_v2, waitId=11, type=Follower] already destroyed, ignore error code: 1001
+
+2025-01-08 17:38:52,313 INFO Shutting down FSMCaller...
+
+2025-01-08 17:38:52,314 INFO Shutdown managed channel: nacos2:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=198, target=nacos2:7848}}.
+
+2025-01-08 17:38:52,314 INFO The channel nacos2:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,314 WARN This channel nacos2:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,315 INFO onShutdown.
+
+2025-01-08 17:38:52,315 INFO Shutdown managed channel: nacos1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=434, target=nacos1:7848}}.
+
+2025-01-08 17:38:52,315 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,315 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,318 INFO The number of active nodes decrement to 0.
+
+2025-01-08 17:38:52,319 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3a21a6ef[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 123134].
+
+2025-01-08 17:38:52,320 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@317f8465[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 27].
+
+2025-01-08 17:38:52,320 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@66707fbd[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 50023].
+
+2025-01-08 17:38:52,321 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/nacos3:7848>'}.
+
+2025-01-08 17:38:52,322 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@3982d2fe[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 28].
+
+2025-01-08 17:38:52,322 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/nacos3:7848>'}.
+
+2025-01-08 17:38:52,323 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@23df94f1[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 62968].
+
+2025-01-08 17:38:52,324 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/nacos3:7848>'}.
+
+2025-01-08 17:38:52,324 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@e80d68e[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 240].
+
+2025-01-08 17:38:52,324 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/nacos3:7848>'}.
+
+2025-01-08 17:38:52,326 INFO Node <naming_persistent_service_v2/nacos3:7848> shutdown, currTerm=19 state=STATE_SHUTTING.
+
+2025-01-08 17:38:52,326 INFO Stop the RaftGroupService successfully.
+
+2025-01-08 17:38:52,327 INFO Shutdown managed channel: nacos3:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=108, target=nacos3:7848}}.
+
+2025-01-08 17:38:52,327 INFO The channel nacos3:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,327 WARN This channel nacos3:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,328 INFO Shutdown managed channel: nacos2:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=125, target=nacos2:7848}}.
+
+2025-01-08 17:38:52,328 INFO The channel nacos2:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,328 WARN This channel nacos2:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,328 INFO Shutdown managed channel: nacos1:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=113, target=nacos1:7848}}.
+
+2025-01-08 17:38:52,328 INFO The channel nacos1:7848 is in state: SHUTDOWN.
+
+2025-01-08 17:38:52,328 WARN This channel nacos1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2025-01-08 17:38:52,328 INFO Connection disconnected: /172.19.0.5:47834
+
+2025-01-08 17:38:52,331 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@3eca4871[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 102706].
+

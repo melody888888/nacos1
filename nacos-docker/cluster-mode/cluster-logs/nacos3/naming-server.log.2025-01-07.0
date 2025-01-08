@@ -1,0 +1,526 @@
+2025-01-07 10:21:32,034 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:21:39,823 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:39,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:39,833 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:21:59,587 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:22:06,880 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:06,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:06,903 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:25,934 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:22:33,327 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:22:52,869 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:23:00,795 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:00,827 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:00,851 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:19,229 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:23:26,495 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:26,495 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:26,495 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:46,613 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:23:54,727 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,745 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:23:54,756 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:15,037 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:24:22,475 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:41,779 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:24:49,359 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:24:49,360 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:09,524 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:25:16,899 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:16,911 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:16,919 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:25:36,751 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:25:44,075 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:03,737 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:26:12,046 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:12,070 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:12,091 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:30,597 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:26:38,935 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:38,943 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:38,968 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:26:56,658 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:27:03,560 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:03,559 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:03,591 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:23,073 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:27:30,047 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:30,108 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:30,108 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:49,653 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:27:57,412 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:57,412 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:27:57,422 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:17,367 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:28:25,615 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:25,615 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:28:45,529 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:28:52,903 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:11,900 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:29:20,149 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:20,164 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:20,165 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:39,331 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:29:47,071 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:29:47,071 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2025-01-07 10:30:05,617 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:30:14,507 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 10:30:14,508 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 10:30:14,520 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 10:30:14,520 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 10:30:16,591 INFO Load instance extension handler []
+
+2025-01-07 10:30:26,705 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:30:28,705 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:30:31,828 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:30:31,901 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:36:51,850 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 10:36:51,916 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 10:36:51,955 INFO Client connection 1736217021956_172.19.0.5_47928 disconnect, remove instances and subscribers
+
+2025-01-07 10:36:51,974 INFO Client connection 1736217022406_172.19.0.3_59460 disconnect, remove instances and subscribers
+
+2025-01-07 10:37:15,333 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:37:25,216 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 10:37:25,216 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 10:37:25,217 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 10:37:25,217 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 10:37:26,983 INFO Load instance extension handler []
+
+2025-01-07 10:37:36,903 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:37:37,267 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:39:29,570 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 10:39:29,601 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 10:39:29,707 INFO Client connection 1736217453253_172.19.0.3_58880 disconnect, remove instances and subscribers
+
+2025-01-07 10:39:29,728 INFO Client connection 1736217453460_172.19.0.5_39562 disconnect, remove instances and subscribers
+
+2025-01-07 10:39:53,005 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:40:59,553 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:41:10,630 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 10:41:10,630 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 10:41:10,634 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 10:41:10,634 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 10:41:12,817 INFO Load instance extension handler []
+
+2025-01-07 10:41:19,392 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:41:20,431 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:43:41,633 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 10:43:41,654 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 10:43:41,736 INFO Client connection 1736217678317_172.19.0.4_56252 disconnect, remove instances and subscribers
+
+2025-01-07 10:43:41,739 INFO Client connection 1736217678934_172.19.0.3_32840 disconnect, remove instances and subscribers
+
+2025-01-07 10:44:04,669 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:44:14,444 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 10:44:14,445 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 10:44:14,446 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 10:44:14,446 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 10:44:15,755 INFO Load instance extension handler []
+
+2025-01-07 10:44:24,884 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:44:26,939 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:58:09,848 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 10:58:09,887 INFO Client connection 1736217861178_172.19.0.3_43478 disconnect, remove instances and subscribers
+
+2025-01-07 10:58:09,903 INFO Client connection 1736217860816_172.19.0.4_37498 disconnect, remove instances and subscribers
+
+2025-01-07 10:58:09,904 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 10:58:41,107 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:58:52,546 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 10:58:52,552 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 10:58:52,564 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 10:58:52,564 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 10:58:54,659 INFO Load instance extension handler []
+
+2025-01-07 10:59:02,033 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 10:59:04,567 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:20:57,873 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 11:20:57,906 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 11:20:58,018 INFO Client connection 1736218740717_172.19.0.4_51546 disconnect, remove instances and subscribers
+
+2025-01-07 11:20:58,020 INFO Client connection 1736218741156_172.19.0.5_39914 disconnect, remove instances and subscribers
+
+2025-01-07 11:21:20,965 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:21:31,015 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 11:21:31,015 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 11:21:31,024 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 11:21:31,024 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 11:21:32,708 INFO Load instance extension handler []
+
+2025-01-07 11:21:41,291 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:21:43,642 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:38:45,531 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2025-01-07 11:38:45,601 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2025-01-07 11:38:45,630 INFO Client connection 1736220097774_172.19.0.5_44142 disconnect, remove instances and subscribers
+
+2025-01-07 11:38:45,631 INFO Client connection 1736220098555_172.19.0.3_47630 disconnect, remove instances and subscribers
+
+2025-01-07 11:39:09,142 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:39:19,033 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2025-01-07 11:39:19,033 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2025-01-07 11:39:19,034 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2025-01-07 11:39:19,034 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2025-01-07 11:39:21,049 INFO Load instance extension handler []
+
+2025-01-07 11:39:29,320 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2025-01-07 11:39:30,932 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+

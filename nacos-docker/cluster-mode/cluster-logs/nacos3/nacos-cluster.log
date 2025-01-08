@@ -2494,3 +2494,73 @@
 
 2025-01-08 17:11:47,302 INFO [serverlist] membercount=3
 
+2025-01-08 17:12:37,462 INFO [serverlist] membercount=3
+
+2025-01-08 17:13:27,621 INFO [serverlist] membercount=3
+
+2025-01-08 17:14:17,799 INFO [serverlist] membercount=3
+
+2025-01-08 17:15:07,965 INFO [serverlist] membercount=3
+
+2025-01-08 17:15:58,109 INFO [serverlist] membercount=3
+
+2025-01-08 17:16:48,260 INFO [serverlist] membercount=3
+
+2025-01-08 17:17:38,423 INFO [serverlist] membercount=3
+
+2025-01-08 17:18:28,598 INFO [serverlist] membercount=3
+
+2025-01-08 17:19:18,749 INFO [serverlist] membercount=3
+
+2025-01-08 17:20:08,922 INFO [serverlist] membercount=3
+
+2025-01-08 17:20:59,096 INFO [serverlist] membercount=3
+
+2025-01-08 17:21:49,279 INFO [serverlist] membercount=3
+
+2025-01-08 17:22:39,454 INFO [serverlist] membercount=3
+
+2025-01-08 17:23:29,615 INFO [serverlist] membercount=3
+
+2025-01-08 17:24:19,796 INFO [serverlist] membercount=3
+
+2025-01-08 17:25:09,949 INFO [serverlist] membercount=3
+
+2025-01-08 17:26:00,108 INFO [serverlist] membercount=3
+
+2025-01-08 17:26:50,284 INFO [serverlist] membercount=3
+
+2025-01-08 17:27:40,449 INFO [serverlist] membercount=3
+
+2025-01-08 17:28:30,602 INFO [serverlist] membercount=3
+
+2025-01-08 17:29:20,771 INFO [serverlist] membercount=3
+
+2025-01-08 17:30:10,954 INFO [serverlist] membercount=3
+
+2025-01-08 17:31:01,118 INFO [serverlist] membercount=3
+
+2025-01-08 17:31:51,283 INFO [serverlist] membercount=3
+
+2025-01-08 17:32:41,439 INFO [serverlist] membercount=3
+
+2025-01-08 17:33:31,607 INFO [serverlist] membercount=3
+
+2025-01-08 17:34:21,747 INFO [serverlist] membercount=3
+
+2025-01-08 17:35:11,955 INFO [serverlist] membercount=3
+
+2025-01-08 17:36:02,111 INFO [serverlist] membercount=3
+
+2025-01-08 17:36:52,269 INFO [serverlist] membercount=3
+
+2025-01-08 17:37:42,423 INFO [serverlist] membercount=3
+
+2025-01-08 17:38:32,572 INFO [serverlist] membercount=3
+
+2025-01-08 17:38:41,323 WARN report the metadata to the unhealthy node : nacos1:8848
+
+2025-01-08 17:38:46,323 WARN report the metadata to the unhealthy node : nacos1:8848
+
+2025-01-08 17:38:51,324 WARN report the metadata to the unhealthy node : nacos1:8848
+
