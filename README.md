@@ -19,7 +19,7 @@ docker logs container_id(nacos1/nacos2/nacos3)
 INFO Nacos started successfully in cluster mode. use external storage
 控制台页面：link：http://127.0.0.1:8848/nacos/
 ```
-### 二
+### 二、
 ##### 1、开启鉴权
 在nacos-hostname.env中新增一行NACOS_AUTH_ENABLE=true即可。
 docker-compose -f cluster-hostname.yaml up -d
