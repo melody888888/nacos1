@@ -5,7 +5,7 @@
 
 > #Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
 org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT DISTINCT data_id, group_id, tenant_id FROM config_info_aggr]; nested exception is java.sql.SQLSyntaxErrorException: Table 'nacos_devtest.config_info_aggr' doesn't exist
-缺少表格那就添加表格
+缺少表格那就`添加`表格
 ```
 docker exec -it mysql bash
 mysql> use nacos_devtest
