@@ -7,8 +7,8 @@
 - docker-compose -f cluster-hostname.yaml up 
 - docker logs container_id(nacos1/nacos2/nacos3)
 
-> 可能会遇到以下错误 
-#Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+##### 可能会遇到以下错误 
+> #Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
 org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT DISTINCT data_id, group_id, tenant_id FROM config_info_aggr]; nested exception is java.sql.SQLSyntaxErrorException: Table 'nacos_devtest.config_info_aggr' doesn't exist
 缺少表格那就`添加`表格
 ```
