@@ -1,4 +1,8 @@
-## 一、部署
+- 快速部署 https://nacos.io/docs/latest/quickstart/quick-start-docker/
+- 部署 https://nacos.io/docs/latest/manual/admin/deployment/deployment-cluster/
+- 鉴权 https://nacos.io/docs/latest/manual/admin/auth/
+- 修改密码 
+## 一、集群模式部署（Docker部署，使用mysql数据库）
 - cd nacos1/nacos-docker/cluster-mode/
 - docker-compose -f cluster-hostname.yaml up 
 - docker logs container_id(nacos1/nacos2/nacos3)
@@ -31,7 +35,7 @@ MYSQL_PASSWORD=nacos
 ```NACOS_AUTH_IDENTITY_KEY=2222
 NACOS_AUTH_IDENTITY_VALUE=2xxx
 NACOS_AUTH_TOKEN=SecretKey012345678901234567890123456789012345678901234567890123456789
-自行修改密码
+自行修改密码（用户名/密码）
 docker-compose -f cluster-hostname.yaml up -d
 #进入容器查看配置是否更改成功
 docker exec -it container bash
