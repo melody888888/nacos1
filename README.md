@@ -28,7 +28,7 @@ docker-compose -f cluster-hostname.yaml up -d
 MYSQL_USER=nacos
 MYSQL_PASSWORD=nacos
 
-NACOS_AUTH_IDENTITY_KEY=2222
+```NACOS_AUTH_IDENTITY_KEY=2222
 NACOS_AUTH_IDENTITY_VALUE=2xxx
 NACOS_AUTH_TOKEN=SecretKey012345678901234567890123456789012345678901234567890123456789
 自行修改密码
@@ -36,10 +36,10 @@ docker-compose -f cluster-hostname.yaml up -d
 #进入容器查看配置是否更改成功
 docker exec -it container bash
 printenv | grep AUTH
-
+```
 
 ### git命令
-echo "# nacos1" >> README>md
+```echo "# nacos1" >> README>md
 git init 
 git add README.md(指定内容) / .（全部内容）
 git commit -m "first commit"
@@ -50,3 +50,4 @@ or
 git remote add origin https://github.com/melody888888/nacos1.git
 git branch -M main
 git push -u origin main
+```
