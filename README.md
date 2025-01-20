@@ -2,7 +2,7 @@
 - 部署 https://nacos.io/docs/latest/manual/admin/deployment/deployment-cluster/
 - 鉴权 https://nacos.io/docs/latest/manual/admin/auth/
 - 修改密码 
-## 一、集群模式部署（Docker部署，使用mysql数据库）
+### 一、集群模式部署（Docker部署，使用mysql数据库）
 - cd nacos1/nacos-docker/cluster-mode/
 - docker-compose -f cluster-hostname.yaml up 
 - docker logs container_id(nacos1/nacos2/nacos3)
